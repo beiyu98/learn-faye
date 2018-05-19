@@ -1,0 +1,19 @@
+{
+  "name": "faye-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon ./server/index.js",
+    "client:one": "nodemon ./client-one/client_one.js",
+    "client:two": "nodemon ./client-two/client_two.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "faye": "^1.2.4",
+    "nodemon": "^1.17.4"
+  }
+}
